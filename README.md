@@ -14,9 +14,8 @@ Summary: Density, Probability and Quantile functions, and random number generati
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-stabledist-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-stabledist-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-stabledist-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-stabledist-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-stabledist-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-stabledist-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-stabledist-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-stabledist-feedstock)
 
 Current release info
 ====================
