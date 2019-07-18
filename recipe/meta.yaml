@@ -18,7 +18,7 @@ source:
 
 build:
   noarch: generic
-  number: 2001
+  number: 2002
 
   rpaths:
     - lib/R/lib/
@@ -49,5 +49,6 @@ about:
 
 extra:
   recipe-maintainers:
+    - conda-forge/r
     - dpryan79
     - croth1
