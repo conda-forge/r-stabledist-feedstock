@@ -1,4 +1,4 @@
-{% set version = '0.7-1' %}
+{% set version = "0.7-1" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -18,7 +18,7 @@ source:
 
 build:
   noarch: generic
-  number: 2002
+  number: 2003
 
   rpaths:
     - lib/R/lib/
@@ -40,13 +40,14 @@ test:
 
 about:
   home: http://www.rmetrics.org, https://r-forge.r-project.org/scm/viewvc.php/pkg/stabledist/?root=rmetrics
-  license: GPL (>= 2)
-  summary: Density, Probability and Quantile functions, and random number generation for (skew)
-    stable distributions, using the parametrizations of Nolan.
+  license: GPL-2.0-or-later
+  summary: Density, Probability and Quantile functions, and random number generation for (skew) stable distributions, using the parametrizations of Nolan.
   license_family: GPL3
 
 
 
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 extra:
   recipe-maintainers:
     - conda-forge/r
