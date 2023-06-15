@@ -1,11 +1,11 @@
-About r-stabledist
-==================
+About r-stabledist-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-stabledist-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.rmetrics.org, https://r-forge.r-project.org/scm/viewvc.php/pkg/stabledist/?root=rmetrics
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-stabledist-feedstock/blob/main/LICENSE.txt)
 
 Summary: Density, Probability and Quantile functions, and random number generation for (skew) stable distributions, using the parametrizations of Nolan.
 

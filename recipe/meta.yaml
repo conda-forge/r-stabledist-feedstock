@@ -18,7 +18,7 @@ source:
 
 build:
   noarch: generic
-  number: 2004
+  number: 2005
 
   rpaths:
     - lib/R/lib/
