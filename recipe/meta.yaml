@@ -1,4 +1,4 @@
-{% set version = "0.7-1" %}
+{% set version = "0.7-2" %}
 
 {% set posix = 'm2-' if win else '' %}
 
@@ -13,11 +13,11 @@ source:
     - https://cran.r-project.org/src/contrib/Archive/stabledist/stabledist_{{ version }}.tar.gz
 
 
-  sha256: 06c5704d3a3c179fa389675c537c39a006867bc6e4f23dd7e406476ed2c88a69
+  sha256: 26671710c0d8e3c815b56e6e4f6bc9ea0509db47c0ef5b8acfbfa16095a16fd5
 
 build:
   noarch: generic
-  number: 2006
+  number: 0
 
   rpaths:
     - lib/R/lib/
